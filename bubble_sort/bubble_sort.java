@@ -3,7 +3,7 @@ package bubble_sort;
 public class bubble_sort {
     
     public static void main (String[] args){
-        String [] nameList = {"Sinan","karthik","Raj","Swastilk"};
+        String [] nameList = {"Sinan","karthik","Raj","SwastHI"};
         for (int i=0; i<nameList.length-1; i++)
             for (int j = i+1; j<nameList.length; j++)
                 if (nameList[i].compareTo(nameList[j]) >0){
