@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class B_S {
     public static void main(String [] args){
-        String[] nameList = {"Sinan","kartik","Raj","Swasthik"};
+        String[] nameList = {"A","D","H","W","P"};
         Arrays.sort(nameList); // QuickSort
         int lb=0, ub= nameList.length-1;
         String searchName = new java.util.Scanner(System.in).nextLine();
